@@ -1,0 +1,153 @@
+<html>
+<head>
+  <title>Real Time Image Identification App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<center>
+  <h3 class="btn btn-primary heading">Case studies
+    <hr>
+    <center>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 heading_div">
+        We are using Mobilenet as a Model  
+        <br>
+          <div class="btn heading_div2">
+          Mobilenet model is trained on
+          <br>
+          MORE THAN 1.3 MILLION IMAGES 
+          </div>
+        </div>
+        <h3>VS</h3>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 heading_div">
+          We are using Google Lens as a Model  
+          <br>
+            <div class="btn heading_div2">
+            It is the best app for : 
+            <br>
+            The app For Realtime Identification
+            </div>
+          </div>
+    </center>
+    <br>
+  </h3>
+  <br><br>
+  
+  
+
+
+<ol>
+  <div class="text_images_and_result">
+  <li>
+  <b>TEST IMAGE - </b><img src="MOUSE.jpeg.jpeg" class="img-responsive">
+  </li>
+  <h2>OUTPUT ON- </h2><b>Google Lens</b> -
+  <span>computer mouse</span>
+  
+  <h2>OUTPUT ON- </h2><b>Mobilenet model</b> -
+  <span>laser computer mouse</span>
+  </div>
+  <hr>
+  <div class="text_images_and_result">
+    <li>
+    <b>TEST IMAGE - </b><img src="pickle.jpeg.jpeg" class="img-responsive">
+    </li>
+    <h2>OUTPUT ON- </h2><b>Google Lens</b> -
+    <span>jar</span>
+    
+    <h2>OUTPUT ON- </h2><b>Mobilenet model</b> -
+    <span>jar of pickle</span>
+    </div>
+    <hr>
+  
+  <div class="text_images_and_result">
+    <li>
+    <b>TEST IMAGE - </b><img src="nokia broadband.jpeg.jpeg" class="img-responsive">
+    </li>
+    <h2>OUTPUT ON- </h2><b>Google Lens</b> -
+    <span>modem</span>
+    
+    <h2>OUTPUT ON- </h2><b>MobileNet model</b> -
+    <span>box</span>
+    </div>
+    <hr>
+    <div class="text_images_and_result">
+      <li>
+      <b>TEST IMAGE - </b><img src="sonf.jpeg" class="img-responsive">
+      </li>
+      <h2>OUTPUT ON- </h2><b>Google Lens</b> -
+      <span></span>
+      
+      <h2>OUTPUT ON- </h2><b>Mobilenet model</b> -
+      <span></span>
+      </div>
+      <hr>
+      <div class="text_images_and_result">
+        <li>
+        <b>TEST IMAGE - </b><img src="diary.jpeg.jpeg" class="img-responsive">
+        </li>
+        <h2>OUTPUT ON- </h2><b>Google Lens</b> -
+        <span></span>
+        
+        <h2>OUTPUT ON- </h2><b>Mobilenet model</b> -
+        <span></span>
+        </div>
+        <hr>
+        <div class="text_images_and_result">
+          <li>
+          <b>TEST IMAGE - </b><img src="bandaid.jpeg.jpeg" class="img-responsive">
+          </li>
+          <h2>OUTPUT ON- </h2><b>Google Lens</b> -
+          <span></span>
+          
+          <h2>OUTPUT ON- </h2><b>Mobilenet model</b> -
+          <span></span>
+          </div>
+          <hr>
+          <div class="text_images_and_result">
+            <li>
+            <b>TEST IMAGE - </b><img src="bottle.jpeg" class="img-responsive">
+            </li>
+            <h2>OUTPUT ON- </h2><b>Google Lens</b> -
+            <span></span>
+            
+            <h2>OUTPUT ON- </h2><b>Mobilenet model</b> -
+            <span></span>
+            </div>
+            <hr>
+            <div class="text_images_and_result">
+              <li>
+              <b>TEST IMAGE - </b><img src="fan.jpeg.jpeg" class="img-responsive">
+              </li>
+              <h2>OUTPUT ON- </h2><b>Google Lens</b> -
+              <span></span>
+              
+              <h2>OUTPUT ON- </h2><b>Mobilenet model</b> -
+              <span></span>
+              </div>
+              <hr>
+              <div id="answer">
+              <h1>This is what I think</h1>
+              <p>
+              </p>
+              </div>
+    </ol>
+
+
+<div class="copy_right_footer">
+<h3>DEVELOPED BY NITAANTMAHAJAN</h3>
+</div>
+
+<script src="main.js"></script>
+</body>
+
+</html>
+
+
